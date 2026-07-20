@@ -257,11 +257,11 @@ p.bt strong{font-weight:600;color:var(--ink);}
 /* La fila del Equipo Responsable Internacional (Kiko / Carmen+Asunción / Mario Pezzi) no
    debe partirse nunca en dos líneas: si no cabe, se desliza en horizontal, pero los tres
    grupos se mantienen siempre en el mismo rango visual. */
-.org-level-eri{flex-wrap:nowrap;gap:1rem;overflow-x:auto;justify-content:center;padding-bottom:0.4rem;padding-top:2.4rem;scrollbar-width:thin;position:relative;}
+.org-level-eri{flex-wrap:nowrap;gap:1rem;overflow-x:auto;justify-content:center;padding-bottom:0.4rem;padding-top:1.1rem;scrollbar-width:thin;position:relative;}
 .org-level-eri::before{content:'';position:absolute;top:0;left:17%;right:17%;height:1px;background:rgba(162,138,73,0.35);}
 .org-level-eri .org-node{min-width:130px;flex-shrink:0;}
 .org-level-eri .org-group{position:relative;}
-.org-level-eri .org-group::before{content:'';position:absolute;top:-2.4rem;left:50%;width:1px;height:2.4rem;background:rgba(162,138,73,0.35);}
+.org-level-eri .org-group::before{content:'';position:absolute;top:-1.1rem;left:50%;width:1px;height:1.1rem;background:rgba(162,138,73,0.35);}
 @media(max-width:900px){.org-layout{grid-template-columns:1fr;}.org-detail-panel{position:static;}}
 @media(max-width:700px){.org-level{gap:0.8rem;}.org-node{min-width:120px;padding:0.9rem 1rem;}.org-level-eri{justify-content:flex-start;}}
 
